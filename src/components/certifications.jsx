@@ -19,6 +19,21 @@ function Certifications({ certificateRef }) {
         <h3 className="text-gray-500">Coursera</h3>
         <p className="text-gray-500">Issued Mar 2022</p>
       </div>
+
+      <a
+        className="mt-20"
+        href="https://www.credly.com/badges/26fffd83-c9b5-4e0f-a651-58c976075a9d?source=linked_in_profile"
+        target="_blank"
+      >
+        <img src="public\assets\NUSHACKERS.JPEG" className="mt-10 w-28"></img>
+      </a>
+      <div className="flex flex-col mt-5">
+        <h1 className="text-xl font-semibold">
+          Best Freshman Hack(Hack and Roll 2023)
+        </h1>
+        <h3 className="text-gray-500">NUS Hackers</h3>
+        <p className="text-gray-500">Issued Jan 2023</p>
+      </div>
     </div>
   );
 }

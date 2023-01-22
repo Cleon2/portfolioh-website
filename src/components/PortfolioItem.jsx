@@ -1,6 +1,6 @@
 import React from "react";
 
-function PortfolioItem({ title, imgUrl, stack, link }) {
+function PortfolioItem({ title, imgUrl, stack, link, description }) {
   return (
     <div className="border-2 border-stone-900 rounded-md overflow-hidden">
       <a href={link} target="_blank">
@@ -20,6 +20,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
             </span>
           ))}
         </p>
+        <p className="mt-2">{description}</p>
       </div>
     </div>
   );

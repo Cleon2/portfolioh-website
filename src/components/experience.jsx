@@ -38,14 +38,19 @@ function Experience({ experienceRef }) {
               className="w-44 h-1/4 object-cover mb-2"
             />
           </a>
-
-          <h1 className="text-xl font-semibold">Project Analyst</h1>
-          <h3 className="text-gray-500">August 2022 - November 2022</h3>
           <p className="text-gray-500">
             180 Degrees Consulting Singapore (Kent Ridge) is a student-led,
             social-impact consultancy committed to solving the most complex
             problems of socially-minded organisations.
           </p>
+          <h1 className="text-xl font-semibold mt-6">Deputy Project Leader</h1>
+          <h3 className="text-gray-500">January 2022 - present</h3>
+          <ul className="mt-5 list-disc list-inside">
+            <li>Scope: Market Segmentation</li>
+            <li>Industry: Climate-tech</li>
+          </ul>
+          <h1 className="text-xl font-semibold mt-6">Project Analyst</h1>
+          <h3 className="text-gray-500">August 2022 - November 2022</h3>
           <ul className="mt-5 list-disc list-inside">
             <li>Scope: Revenue Generation Strategy (Singapore)</li>
             <li>Industry: Online floral market</li>

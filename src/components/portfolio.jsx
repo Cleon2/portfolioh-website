@@ -13,6 +13,7 @@ function Portfolio({ portfolioRef }) {
               title={project.title}
               stack={project.stack}
               link={project.link}
+              description={project.description}
             />
           ))}
         </div>
